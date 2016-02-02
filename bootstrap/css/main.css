@@ -48,7 +48,6 @@ li {
   margin-bottom: 3em;
 }
 .burgandy {
-  border: 1px solid black;
   background-color: #3D2D30;
 }
 
@@ -59,4 +58,82 @@ li {
 
 .myResume {
   text-align: center;
+}
+
+.currentWork {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #f5f2ec;
+  font-size: 47px;
+}
+
+.skillMatchTitle {
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #f5f2ec;
+}
+
+#skillMatch img {
+  width: 80%;
+  margin-left: 4em;
+  border-radius: 4px;
+}
+
+
+.aboutSkillMatch {
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #f5f2ec;
+  font-size: 20px;
+  margin-left: 2em;
+  margin-right: 1em;
+  margin-bottom: 3em;
+  margin-top: 1em;
+}
+
+.contactMe {
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #f5f2ec;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.info {
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  font-size: 25px;
+  border-radius: 5px;
+  border: none;
+}
+
+#name {
+  margin-left: 14em;
+}
+
+#emailArea {
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  border-radius: 4px;
+  width: 23.2em;
+  margin-top: 1em;
+  margin-left: 14em;
+}
+
+#emailButton {
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  margin-left: 47%;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  border-radius: 5px;
+  background-color: #EA4528;
+  border: none;
+  color: #f5f2ec;
+  box-shadow: 4px 0px 8px 0px rgba(0,0,0,0.50);
+  outline: none;
+}
+
+#emailButton:active {
+  box-shadow: none;
+  font-size: 25px;
 }
