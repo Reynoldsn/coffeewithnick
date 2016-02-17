@@ -3,14 +3,14 @@
 /* brandico */
 [class*="brandico-"]:before {
   font-family: 'brandico', sans-serif;
-  font-size: 40px;
+  font-size: 25px;
   color: #3D2D30;
 }
 
 /* zocial */
 [class*="zocial-"]:before {
   font-family: 'zocial', sans-serif;
-  font-size: 40px;
+  font-size: 25px;
   color: #3D2D30;
 }
 /* zocial */
@@ -25,7 +25,7 @@
 body {
   background-color: #f5f2ec;
 }
-li {
+.container li {
   margin-right: 10px;
   display: inline-block;
 }
@@ -35,6 +35,7 @@ li {
 }
 #myImg {
   width: 400px;
+  margin-bottom: 4em;
 }
 #myP {
   font-size: 20px;
@@ -56,7 +57,8 @@ li {
   text-align: center;
   color: #f5f2ec;
   font-size: 50px;
-  margin-top: 1em;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
 }
 #htmlTitle {
   color: #f5f2ec;
@@ -99,41 +101,83 @@ li {
   font-size: 20px;
   margin-top: 1.5em;
   margin-right: 35%;
+  margin-bottom: 9em;
 }
-
-.myResume {
-  text-align: center;
+.myResume img {
+ width: 100%;
+ margin-top: 1em;
 }
-
-.currentWork {
-  text-align: center;
-  color: #f5f2ec;
+.keyResume h3 {
+  margin-top: 1em;
   font-size: 50px;
+  margin-top: 1em;
 }
-
+.keyResume li {
+  font-size: 20px;
+  margin-right: 6em;
+}
 .skillMatchTitle {
   text-align: center;
   color: #f5f2ec;
+  font-size: 50px;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
-#skillMatch img {
-  width: 80%;
-  margin-left: 4em;
-  border-radius: 4px;
-}
-
-.aboutSkillMatch {
-
+.skillMatchDescription {
   color: #f5f2ec;
   font-size: 20px;
-  margin-left: 2em;
-  margin-right: 1em;
-  margin-bottom: 3em;
+  text-align: center;
   margin-top: 1em;
 }
 
-.contactMe {
+.skillMatchImg {
+  width: 35%;
+  margin-top: 5em;
+  margin-left: 5em;
+  border-radius: 10px;
+}
 
+.skillMatchImg1 {
+  width: 500px;
+  height: 320px;
+  margin-left: 2em;
+  border-radius: 5px;
+}
+.skillMatchImg2 {
+  width: 500px;
+  height: 320px;
+  margin-left: 8em;
+  border-radius: 5px;
+}
+.SkillMatchList {
+  color: #f5f2ec;
+  font-size: 20px;
+  width: 81%;
+}
+.SkillMatchList li {
+  margin-bottom: 1em;
+}
+#list1 {
+  margin-left: 3.8em;
+  margin-top: 2em;
+}
+.SkillMatchList2 {
+  color: #f5f2ec;
+  font-size: 20px;
+  width: 85%;
+}
+
+#list2 {
+  margin-left: 1.8em;
+  margin-top: 2em;
+}
+
+.SkillMatchList2 li {
+  margin-bottom: 1em;
+}
+
+.contactMe {
   color: #f5f2ec;
   font-size: 30px;
   text-align: center;
@@ -141,7 +185,6 @@ li {
 }
 
 .info {
-
   margin: auto;
   font-size: 25px;
   border-radius: 5px;
