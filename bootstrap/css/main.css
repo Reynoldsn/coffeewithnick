@@ -177,6 +177,12 @@ body {
   margin-bottom: 1em;
 }
 
+#skillMatch3 {
+    margin-left: 7em;
+    width: 1100px;
+    border-radius: 5px;
+}
+
 .contactMe {
   color: #f5f2ec;
   font-size: 30px;
