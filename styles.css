@@ -1,0 +1,44 @@
+@import url(http://weloveiconfonts.com/api/?family=brandico|entypo|zocial);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+  font-size: 25px;
+  color: #3D2D30;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  font-size: 25px;
+  color: #3D2D30;
+}
+/* zocial */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+* {
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+  background-color: #f5f2ec;
+}
+.container li {
+  margin-right: 10px;
+  display: inline-block;
+}
+.container {
+  margin-top: 175px;
+  width: 84%;
+}
+#myImg {
+  width: 400px;
+  margin-bottom: 4em;
+}
+#myP {
+  font-size: 20px;
+  color: #3D2D30;
+  margin-top: -40px;
+}
