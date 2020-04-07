@@ -238,6 +238,10 @@ a {
     display: flex;
   }
 
+  .typing p {
+    font-weight: 600;
+  }
+
   .my-img {
     width: 80%;
   }
