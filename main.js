@@ -1,0 +1,1 @@
+console.log("Hello curious friend, want to hire me? :)")
