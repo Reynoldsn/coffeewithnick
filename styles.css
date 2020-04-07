@@ -221,13 +221,13 @@ a {
   }
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1400px) { 
+@media (min-width: 1000px) and (max-width: 1400px) { 
   .chat-bubble {
     left: 65%;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
 
   .container {
     padding: 20em 2em 0 2em;
