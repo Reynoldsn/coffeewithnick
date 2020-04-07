@@ -1,3 +1,1 @@
-// $(".entypo-down-open").on('click', function() {
-//   window.scroll(0,600);
-// });
+console.log("Hello curious friend, want to hire me? :)")
