@@ -1,7 +1,3 @@
-* {
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
 body {
   background-color: #f5f2ec;
 }
@@ -13,7 +9,7 @@ a {
 }
 
 .container {
-  padding: 15em;
+  padding: 8em 15em 15em 10em;
 }
 
 .img-container {
@@ -73,7 +69,7 @@ a {
 
 .typing p {
   border-right: .15em solid orange;
-  font-family: "Courier";
+  font-family: "Courier", monospace;
   font-size: 16px;
   white-space: nowrap;
   overflow: hidden;
@@ -221,13 +217,13 @@ a {
   }
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1400px) { 
+@media (min-width: 1000px) and (max-width: 1400px) { 
   .chat-bubble {
     left: 65%;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
 
   .container {
     padding: 20em 2em 0 2em;
@@ -236,6 +232,10 @@ a {
   .img-container {
     position: relative;
     display: flex;
+  }
+
+  .typing p {
+    font-weight: 600;
   }
 
   .my-img {
